@@ -1,15 +1,15 @@
 #wincode.ml farkıyla :)
 # Buralarla oynamayın fazla :D
-def add(x, y):
+def toplama(x, y):
     return x + y
 
-def subtract(x, y):
+def cikartma(x, y):
     return x - y
 
-def multiply(x, y):
+def carpma(x, y):
     return x * y
 
-def divide(x, y):
+def bolme(x, y):
     return x / y
 
 
@@ -29,16 +29,16 @@ while True:
         num2 = float(input("İkinci sayıyı girin: "))
 
         if choice == '1':
-            print(num1, "+", num2, "=", add(num1, num2))
+            print(num1, "+", num2, "=", toplama(num1, num2))
 
         elif choice == '2':
-            print(num1, "-", num2, "=", subtract(num1, num2))
+            print(num1, "-", num2, "=", cikartma(num1, num2))
 
         elif choice == '3':
-            print(num1, "*", num2, "=", multiply(num1, num2))
+            print(num1, "*", num2, "=", carpma(num1, num2))
 
         elif choice == '4':
-            print(num1, "/", num2, "=", divide(num1, num2))
+            print(num1, "/", num2, "=", bolme(num1, num2))
         break
     else:
         print("Geçersiz Giriş")
